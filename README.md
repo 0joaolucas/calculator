@@ -1,18 +1,14 @@
-## Getting Started
+# Calculadora Java (Swing)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Projeto simples de uma calculadora feita em Java usando Swing.
 
-## Folder Structure
+## O que ela faz
+- Operações básicas (+, -, x, ÷)
+- Lida com números decimais
+- Botão AC (limpar tudo)
+- Função de inverter sinal (+/-)
+- Tratamento de ponto decimal
+- Remoção de zeros desnecessários no resultado (ex: 8.0 -> 8)
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Interface
+![print da calculadora](print.png)
